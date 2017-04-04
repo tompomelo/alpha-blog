@@ -19,6 +19,7 @@
                 <%= f.label :description %>
             </div>
             <div class="col-sm-8">
+                <%= simple_format(@article.description) %>
                 <%= f.text_area :description, rows: 10, class: "form-control", placeholder: "Body of article" %>
             </div>
         </div>
