@@ -88,6 +88,7 @@ $navbar-default-bg: #CAF2FC;
 {
     font-weight: bold;
     font-size: 1.5em;
+    overflow: clip;
 }
 
 .article-body
@@ -96,6 +97,7 @@ $navbar-default-bg: #CAF2FC;
     padding-top: 15px;
     padding-bottom: 15px;
     background-color: #eaeaea;
+    overflow: clip;
 }
 
 .listing
