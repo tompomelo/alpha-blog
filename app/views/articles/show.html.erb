@@ -23,6 +23,10 @@
 
     <%= breaking_word_wrap(@article.description, 150) %>
     </div>
+    
+    <% if @article.categories.any? %>
+        <p>Categories: <%= render @article.categories %></p>
+    <% end %>
 
     <div class="article-actions">
         <%= link_to "View all articles", articles_path, class: "btn btn-xs btn-success" %>
